@@ -5,7 +5,7 @@ export default defineConfig({
   // 网站标题，游览器标签页上显示
   title: "Andrew`s Notes",
   description: "description",
-  base: "/blog/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // 页面左上方导航栏
@@ -49,7 +49,7 @@ export default defineConfig({
                 text: "蒸汽腾腾里的文化",
                 link: "/study_note/chinese/culture_in_steam.md",
               },
-              { text: "龙眼甜", link: "s/tudy_note/chinese/longan.md" },
+              { text: "龙眼甜", link: "/study_note/chinese/longan.md" },
             ],
           },
         ],
